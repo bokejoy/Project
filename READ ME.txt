@@ -1,0 +1,175 @@
+************************************
+AUTHOR INFO
+************************************
+NAME: Mark Abucayon 
+EMAIL: markabucayon@gmail.com
+
+
+************************************
+HOW TO GET THIS FILE?
+************************************
+
+1. once you've downloaded the file.
+2. unzip the Final_Theme.zip
+3. You are ready to customize/use the file.
+
+************************************
+TEMPLATE NAME
+************************************
+
+Brown Portfolio
+
+************************************************************************
+DESCRIPTION
+************************************************************************
+Brown Portfolio is a 900px wide website.
+This is easy to customize, full contact us package, bookmarks, favicon, twitter plugin.
+easy to use navigations and well coded and Categorize CSS 
+
+*************************************
+CREDITS
+*************************************
+
+1. John Resig (jQuery.com)
+2. http://jqueryfordesigners.com/demo/coda-slider.html
+3. DynamicDrive (Form Validation) - http://www.dynamicdrive.com
+
+************************************
+LIST OF FEATURES
+************************************
+
+ - Valid XHTML Strict 1.0 
+ - Valid CSS Level 2.1 
+ - Tableless layout
+ - 1 PSD File included
+ - Tested and working in major browsers
+ - CODA jQuery
+ - JS Form Validation
+ - Contact us ready to use, just change "$to"
+ - Twitter Plugin ready to use
+ - Favicon ready to use
+ - bookmarking ready to use
+ - CSS resets	
+ - Easy to Customize 
+
+************************************
+HTML FILES
+************************************
+
+Can be found in "Final_Theme" folder
+
+************************************
+HOW TO CHANGE MENU NAVIGATION?
+************************************
+
+Home - <a href="index.htm"></a>
+My Work - <a href="mywork.htm"></a>
+About me - <a href="aboutme.htm"></a>
+Contact me - <a href="contactme.htm"></a>
+
+***************************************************
+HOW TO CHANGE FONT COLOR and BACKGROUND COLOR?
+***************************************************
+
+1. Go to css/style.css (Path)
+2. locate the body tag in the css file then
+3. Change the ff:
+	background: 
+	color: 	
+
+Note: css/style.css is for css resets
+css/main.css is for the main website
+other CSS included: main.css, style.css, coda-slider.css
+
+************************************
+LIST OF PATHS OR DIRECTORIES
+************************************
+
+1. All images are located in folder "img"
+2. CSS files are located in folder "css"
+3. jQuery files are located in folder "js"
+4. Screenshots are located in folder "screenshot"
+
+***************************************
+LIST OF JQUERIES and its DESCRIPTION
+***************************************
+
+1. unitpngfix.js - Fix the background with ".png" extension especially for IE6
+2. validator.js - this is used in contact form validator
+3. coda-slider.js - this is used in sliding latest projects, CODA Slides
+
+************************************************************
+How TO ADD CODA SLIDER
+************************************************************
+
+<div class="scrollContainer">
+   <div class="panel" id="c1">
+      Example Testing
+   </div>
+</div>
+
+1. Just Copy the code at the top and only change id="c1" to "c2", "c3", "c4" ascending order.
+2. CSS Code found in css/coda-slider.css "div.scrollContainer"
+
+****************************************************************************************************
+HOW TO CHANGE TWITTER PLUGIN TO YOUR TWITTER ACCOUNT
+****************************************************************************************************
+
+<div id="twitter_div">
+   <ul id="twitter_update_list"><li>&nbsp;</li></ul>   - you should include the TAG "ID = twitter_update_list"          	
+</div>
+   <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js" defer="defer"></script>
+   <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/mabuc.json?callback=twitterCallback2&amp;count=2" defer="defer">
+   </script>
+
+Edit this one : http://twitter.com/statuses/user_timeline/mabuc.json?callback=twitterCallback2&amp;count=2
+Change "Mabuc" to your username and "Count" to the records you want to display in your website
+
+
+**********************************************************
+HOW TO CHANGE "SEND TO" IN THE CONTACT FORM
+**********************************************************
+
+complete code is shown in "send.php"
+
+$to="example@gmail.com"; //Change this to your own email address
+$subject = "Prospect Client"; //Change this of your own subject to put
+
+send.php page will automatically redirected to the main page.
+
+
+**********************************************************
+PSD FILES
+**********************************************************
+
+.psd file can be found in "PSD" folder inside the "Final_Theme" folder
+index.psd is the filename.
+
+
+************************************
+FONT FILES and FONT COLORS
+************************************
+
+FONT:
+I use typical fonts like "Arial" and "Georgia" font type.
+Colors: #333333, #FFFFFF; #3C2F26, #46352B, #9F795D, #000000, #AC9D90
+font sizes: 13px; , 12px , 11px, 20px; 25px;
+
+
+************************************
+NEED SUPPORT AND HELP?
+************************************
+
+If you have encounter any problem regarding on the template
+don't hesitate to contact me.
+markabucayon@gmail.com
+
+
+************************************
+THANK YOU AND GOD BLESS YOU ALWAYS!
+************************************
+
+Thank you for purchasing my template.
+
+
+

@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+.clear:after {
+	content: ".";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;
+}
+
+div.container {
+	width:900px; margin:0 auto;
+}
+
+/*LOGO*/
+.logo {
+	margin:20px 0 10px 0; text-align:center; 
+}
+h2.logotitle {
+	font-family:Georgia, 'Times New Roman', Times, calibri ; font-size:23px;
+}
+h2.subtitle {
+	margin:4px 0 0 0; font-size:13px; color: #99afcc;
+}
+a.logolink:link, a.logolink:visited {
+	text-decoration:none; color: #99afcc;
+}
+a.logolink:hover {
+	text-decoration:none; color: #99afcc;
+}
+
+/*SIDEBAR*/
+.sidebar {
+	width:276px; /*padding:0 10px 10px 10px;*/ float:left; margin:0 15px 0 0;
+}
+* html .sidebar {
+	width:276px; /*padding:0 10px 10px 10px;*/ float:left; margin:0 0 0 0;
+}
+.side_top {
+	background: rgba(60, 68, 105, 0.68); float:left; padding:5px; width:276px;
+}
+.side_buttom {
+	background: rgba(60, 68, 105, 0.68); float:left; margin:60px 0 0 0; padding:5px; width:276px;
+}
+
+/*TWITTER*/
+.twitter {
+	padding:0px; width:260px; height:218px; float:left; margin:15px 0 0 0;
+}
+h2.twitterlbl {
+	padding:10px 20px 0 4px; font-size:20px; color:#FFF;
+}
+p.twitdesc { 
+	font-size:12px; color:#FFF; line-height:18px;
+}
+#twitter_div ul li{
+	list-style:none; margin:15px 0 0 0; color:#FFF; line-height:18px; padding:4px;
+}
+#twitter_div a:link, a:visited {
+	text-decoration:none; color:#FFF;
+}
+#twitter_div a:hover {
+	text-decoration:none; color:#FFF;
+}
+
+/*MENU FUNCTIONS*/
+.menu {
+	margin:5px 0 0 0; background: #050505;
+}
+.menu li {
+	float:left; display:block; margin:0 0 0 0;
+}
+.menu li.divider {
+	background:url(../img/divider.jpg) no-repeat; width:2px; height:31px;
+}
+a.menulink:link, a.menulink:visited {
+	text-decoration:none; color:#FFF; display:block; padding:9px; font-weight:bold; font-size:13px; 
+	width:72px; text-align:center; background: #050505;
+}
+a.menulink:hover {
+	text-decoration:none; color:#FFF; display:block; padding:9px; background: #050505; font-weight:bold;
+	font-size:13px; width:72px; text-align:center;
+}
+a.menulactive:link, a.menuactive:visited {
+	text-decoration:none; color:#FFF; display:block; padding:9px; font-weight:bold; font-size:13px; 
+	width:72px; text-align:center; background: #050505;
+}
+
+
+/*FLICKER*/
+.flicker {
+	margin:15px 0 0 0; float:left;
+}
+* html .flicker {
+	margin:0 0 0 0; float:left;
+}
+h2.flickerlbl {
+	font-size:20px; padding:0 15px 10px 4px; color:#FFF;
+}
+* html h2.flickerlbl {
+	font-size:20px; padding:0 15px 10px 4px; color:#FFF;
+}
+.flicker li {
+	float:left; margin:3px 2px 0 3px;
+}
+
+* html .flicker li {
+	float:left; margin:3px 2px 0 2px;
+}
+
+/*STATUS FREELANCE*/
+.availablelbl {
+	margin:10px 0 10px 0; float:left;
+}
+.availablelbl a {
+	display:block; background:url(../img/availablebg.png) no-repeat; width:276px; height:142px; cursor:pointer;
+}
+
+/*CENTER BAR*/
+.centerbar {
+	width:580px; float:left; margin:3px 0 0 15px; 
+}
+* html div.centerbar {
+	width:400px; float:left; margin:3px 0 0 15px; 
+}
+h2.prolbl {
+	color: #99afcc; font-size:17px; margin:7px 0 0 0;
+}
+
+/*LATEST WORK*/
+.latest {
+	margin:22px 0 0 0; float:left;
+}
+.img {
+	float:left;
+}
+.img img {
+	border:1px solid #000; 
+}
+.portdesc {
+	margin:0 0 0 10px; float:left; width:325px; color: #99afcc;
+}
+.portdesc p {
+	line-height:18px; margin:10px 0 0 0;
+}
+h2.portlbl {
+	font-size:17px; color: #99afcc;
+}
+p.reslbl {
+	font-size:13px; font-weight:bold;
+}
+.r1 {
+	float:left;
+}
+.r1 p {
+	color: rgba(60, 68, 105, 0.68);
+}
+.checklbl {
+	float:left;
+}
+.checklink {
+	float:left; margin:0 0 0 20px;
+}
+
+
+/*WELCOME MESSAGE*/
+.welcome {
+	margin:35px 0 0 0; float:left; width:580px;
+}
+.welcome h2 {
+	font-size:20px; padding:15px 0 10px 0;
+}
+.welcome p {
+	line-height:18px; color: #99afcc;
+}
+
+/*WHAT I DO*/
+.whatido {
+	margin:30px 0 0 0; float:left; width:580px;
+}
+.whatido h2 {
+	font-size:20px; padding:15px 0 10px 0;
+}
+.whatido h3 {
+	font-size:14px; margin:0 0 10px 0;
+}
+.whatido p {
+	line-height:18px; color: rgba(60, 68, 105, 0.68);
+}
+
+/*FOOTER*/
+.footer {
+	background: #0d0e0e; margin:2px 0 0 0; padding:30px 0 50px 0; text-align:center; color:#FFF;
+}
+
+h3.wrkexplbl {
+	font-size:16px; margin:0 0 10px 0;
+}
+
+/*FORM STYLE*/
+label {
+  float: left;
+  width: 80px;
+  padding-right: 1px;
+}
+input,
+textarea{
+	padding: 4px;
+	font: 400 13px arial, sans-serif;
+	background: #0d0e0e;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #8D9497 #8D9497 #8D9497 #8D9497;
+}
+input:focus,
+textarea:focus{  
+  	color: #99afcc;
+  	background-color: #050505;
+}
+#name, #email, #subject{
+	width:300px; margin:0 0 10px 0;
+}
+#message{
+	width:300px;
+	height:95px; margin:0 0 12px 0;
+}
+#btncontact, #btnreset {
+	padding: 1px 10px;
+	font: bold 1em arial, sans-serif;
+	cursor: pointer;
+	color: #FFF;
+	background-color: rgba(60, 68, 105, 0.68);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #27373B #27373B #27373B #27373B;
+}
+/*************/
+
+/*Form label*/
+p.lblcomname {
+	font-weight:bold; font-size:16px;
+}
+a.lblcomlink:link, a.lblcomlink:visited {
+	text-decoration:none; color: #2a2aad;
+}
+a.lblcomlink:hover {
+	text-decoration:none; color: #2a2aad;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+	margin:15px 0 0 0;
+}
+.portfolio img {
+	width:565px; height:178px;
+}

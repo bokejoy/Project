@@ -1,0 +1,70 @@
+#slider {
+    width: 585px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scroll {
+    height:250px;
+    width: 585px;
+    overflow: auto;
+    /*overflow-x: hidden;*/
+    position: relative;
+    clear: left;
+	overflow: hidden;
+}
+
+.scrollContainer div.panel {
+    height: 250px;
+    width: 586px;
+	color: rgb(42, 42, 173);
+	float: left; position: relative;
+}
+
+ul.navigation {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    padding-bottom: 9px;
+}
+
+ul.navigation li {
+    display: inline;
+    margin-right: 6px;
+	float:left;
+}
+
+a.nav:link {
+    padding: 2px 6px 2px 6px;
+    color: #272628;
+    text-decoration: none;
+	margin:10px 0 0 0;
+}
+a.nav:visited {
+	padding: 2px 6px 2px 6px;
+    color:#FFF;
+    text-decoration: none;
+	margin:10px 0 0 0;	
+}
+a.nav:hover {
+    background-color: #f6f6f6;
+	padding: 2px 6px 2px 6px;
+	color:#000;
+	text-decoration: none;
+}
+a.selected:link {
+    background-color: #fff;
+	color:#000;
+	padding: 2px 6px 2px 6px;
+	text-decoration:none;
+}
+a.selected:visited {
+    background-color: #fff;
+	color:#000;
+	padding: 2px 6px 2px 6px;
+	text-decoration:none;
+}
+
+.hide {
+    display: none;
+}
